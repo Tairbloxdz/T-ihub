@@ -2321,9 +2321,9 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "DEPTRAI Hub [Premium]",
-    SubTitle = "| DEPTRAIMVP VIP PRO",
-    TabWidth = 100,
+    Title = "Taidepzai Hub [Premium]",
+    SubTitle = "| TAIDEPZAI VIP PRO",
+    TabWidth = 120,
     Size = UDim2.fromOffset(400, 280),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
@@ -3176,8 +3176,8 @@ local Toggle = Tabs.Settings:AddToggle("MyToggle", {Title = "Fast Attack", Defau
 end)
 
 local Dropdown = Tabs.Settings:AddDropdown("Dropdown", {
-        Title = "Gok Quái",
-        Values = {"Low", "Normal", "Super Bring"},
+        Title = "Gom Quái",
+        Values = {"Low", "Normal", "taidepzai Bring"},
         Multi = false,
         Default = 1,
     })
@@ -7893,4 +7893,4 @@ spawn(function()
     end)
     end)
     
-NotificationLibrary:SendNotification("Success deptraimvp", "Load Successfully", 8)
+NotificationLibrary:SendNotification("Success TAIDEPZAI VIPPRO", "Load Successfully", 8)
